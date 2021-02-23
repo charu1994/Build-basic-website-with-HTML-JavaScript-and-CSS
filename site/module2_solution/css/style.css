@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1{
+	display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+  
+
+/*.row{
+	margin:1%;
+	 align-content: center;
+}*/
+.box{
+	border-width: 3px 3px 5px 5px;
+  	border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+   	transform: rotate(-2deg);
+    padding: 30px;
+	border: 3px solid black;
+	float: left;
+	position: relative;
+	background: lightgray
+}
+
+.heading1{
+	
+	border-width: 5px 3px 3px 5px;
+  	border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  	transform: rotate(2deg);
+	border: 2px solid black;
+	font-weight: bold;
+	float: right;
+	position: absolute;
+	right: 0;
+	background: red;
+	}
+
+.heading2{
+
+	/*comic boarder*/
+	 border-width: 5px 3px 3px 5px;
+	border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+	transform: rotate(2deg);
+	/*normal bosy stle*/
+	border: 2px solid black;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+	float: right;
+	position: absolute;
+	right: 0;
+	background: green;
+}
+.heading3{
+	border-width: 5px 3px 3px 5px;
+	border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+	transform: rotate(2deg);
+	border: 2px solid black;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+	float: right;
+	position: absolute;
+	right: 0;
+	background: yellow;
+}
+
+.heading1:hover, .heading2:hover, .heading3:hover{
+	transform: skew(-10deg);
+}
+p{
+	padding-top: 30px;
+}
+
+@media(min-width: 992px) {
+	.col-lg-4{
+		width: 31.33%;
+		margin-left: 1%;
+		margin-right: 1%;
+		
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	.col-md-6{
+		width: 48%;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-bottom: 2%;
+
+	}
+	.col-md-12{
+		width: 98%;
+		margin: 1%;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		width: 98%;
+		margin:1%;
+	}
+}
+
+
+
