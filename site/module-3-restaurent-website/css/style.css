@@ -1,0 +1,58 @@
+body{
+	background-color: #F4C2C2;
+	font-size: 16px;
+	color: #ef5480;
+	font-family: 'Combo', cursive;
+}
+
+
+/*Header*/
+#header-nav{
+	background-color: #61122f;
+	border-radius: 0;
+	border: 0;
+} 
+
+.container{
+	margin:0px;
+}
+
+/*place logo*/
+#logo-img{
+	background: url("../images/brain.png") no-repeat;
+	width: 120px;
+	height: 100px;
+	background-size: 120px 100px;
+	margin: 0px;
+	float: left;
+}
+.navbar-brand{
+	padding: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Akaya Telivigala', cursive;
+	color: #557c3e;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link{
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	color: #FFF;
+	font-size: 0.7em;
+	}
+
+.navbar-brand p span{
+	vertical-align: middle;
+	font-style: italic;
+	margin-top: 1px;
+}
